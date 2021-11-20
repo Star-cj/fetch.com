@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <title>fetch API</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h3>Add New Post To The Database</h3>
+                <form action="post" class="add-postform">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input autocomplete="off" spellcheck="false" placeholder="Title" type="text"
+                            class="form-control" id="title-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">First Name:</label>
+                        <input autocomplete="off" spellcheck="false" placeholder="First Name" type="text"
+                            class="form-control" id="first-name">
+
+                        <label for="title">Last Name:</label>
+                        <input autocomplete="off" spellcheck="false" placeholder="Last Name" type="text"
+                            class="form-control" id="last-name">
+
+                        <label for="title">Your Age:</label>
+                        <input autocomplete="off" spellcheck="false" placeholder="What is your age" type="number"
+                            class="form-control" id="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Content:</label>
+                        <textarea class="form-control" id="body-value"
+                            placeholder="Tell me something about yourself"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Add Post</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="posts-list row">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "The President",
+      "first_name": "Chigamezu",
+      "last_name": "Opara",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "age": 27
+    },
+    {
+      "title": " Star",
+      "first_name": "Chigozie",
+      "last_name": "Emeafu",
+      "content": "I am the best to anything apart from God. God is the best thing that has happen to me",
+      "age": "29",
+      "id": 2
+    },
+    {
+      "title": "International",
+      "first_name": "Bege",
+      "last_name": "Shemang",
+      "content": "This is the international man that is travel over the world ",
+      "age": "34",
+      "id": 3
+    },
+    {
+      "title": "   Floxy",
+      "first_name": "Florence",
+      "last_name": "Emeafu",
+      "content": "This is my story, this is my song this is my savior  all that day long",
+      "age": "23",
+      "id": 4
+    },
+    {
+      "title": "Marketer",
+      "first_name": "Johnson",
+      "last_name": "Maggi",
+      "content": "This is a marketer with exception, he can sell anything without a shop. He is very good in anything that consign selling.\nWhen you see his professionalism, you will marvel.\nIt is a wonder...  ",
+      "age": "38",
+      "id": 5
+    }
+  ]
+}

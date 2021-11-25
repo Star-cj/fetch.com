@@ -8,7 +8,7 @@ const postList = document.querySelector(".posts-list"),
     submitBtn=document.querySelector('.btn');
 
 
-const url = "http://localhost:3000/users";
+const url = "https://gist.githubusercontent.com/Star-cj/9d0a616f4f603bc97f8a044a421d65fb/raw/7e46cf5f9be416cddcc25d04031f09c1c62ee4a0/db.json";
 
 let output = '';
 

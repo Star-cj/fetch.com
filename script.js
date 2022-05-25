@@ -115,7 +115,7 @@ postForm.addEventListener("submit",(e)=>{
         .then(res=>res.json())
         .then(data=>{
             let dataArray=[];
-            dataArray.push(data);
-            renderPost(dataArray );
+            dataArray.push(data);  //this PUSH will make the data to be in an array form
+            renderPost(dataArray);
         })
 })
